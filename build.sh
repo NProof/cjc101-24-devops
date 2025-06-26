@@ -1,6 +1,6 @@
 set -ex
 #set registry
-USERNAME=http://360121241118.dkr.ecr.ap-northeast-1.amazonaws.com/
+USERNAME=360121241118.dkr.ecr.ap-northeast-1.amazonaws.com
 # image name
 IMAGE=cjc101-24-ecr-repo
 docker build -t $USERNAME/$IMAGE:latest .
